@@ -7,7 +7,11 @@ body {
   box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
   background-color: rgb(255,255,255);
 }
+.theButton:hover {
+  top: -1px;
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
 .theButton:active {
   box-shadow: 0px 0px 0px;
-  down: -2px;
+  bottom: -2px;
 }
